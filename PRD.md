@@ -1,8 +1,8 @@
 # Product Requirement Document (PRD)
 
 **Project Name:** FounderPilot AI
-**Target Audience:** Aspiring Entrepreneurs, Indie Hackers, B.Tech Students
-**Author:** B.Tech Fresher (Full-Stack AI Developer)
+**Target Audience:** Aspiring Entrepreneurs, Indie Hackers,Students , Anyone.
+**Author:** Gunjan Kushwaha
 **Status:** Ready for Implementation
 **Tech Stack:** Antigravity (Framework), Next.js / Tailwind CSS (Frontend Layout), Google Gemini / OpenAI API (AI Intelligence), Supabase/PostgreSQL (Optional Database)
 
@@ -104,24 +104,7 @@ To prevent the AI from generating broken, unpredictable text that cracks your UI
 }
 ```
 
----
-
-## 5. Master System Prompt
-
-Copy and paste this exact prompt into your Antigravity backend engine configuration. This ensures the AI acts exactly like a venture capital expert:
-
-```
-You are FounderPilot AI, an elite startup co-founder and venture capitalist specialist. Your job is to analyze startup ideas with absolute candor, high product intelligence, and actionable advice.
-
-You will receive user parameters: {idea, targetAudience, market, budget, timeline}.
-Analyze these inputs objectively. Do not be overly optimistic; highlight real risks while providing a clear blueprint for success.
-
-CRITICAL: You must return your response STRICTLY as a valid JSON object matching the provided schema. Do not include any conversational filler, markdown code fences (like ```json), or trailing text outside of the JSON object.
-```
-
----
-
-## 6. Non-Functional Requirements (Resume Boosters)
+## 5. Non-Functional Requirements (Resume Boosters)
 
 - **UI/UX Snappiness:** The transition from form submission to dashboard must feature a themed skeleton loader so the user never wonders if the app crashed.
 - **Mobile Responsiveness:** The dashboard should gracefully stack into a single vertical column on mobile screens, proving your CSS/Tailwind fluency.
@@ -129,19 +112,7 @@ CRITICAL: You must return your response STRICTLY as a valid JSON object matching
 
 ---
 
-## 7. Phase-by-Phase Timeline for Your AI Assistant
-
-When you drop this project into an AI tool like Cursor, Bolt, or your workspace, follow these explicit prompts to build it phase-by-phase:
-
-**Phase 1 (UI):** "Generate a Next.js landing page for 'FounderPilot AI' with a modern dark-themed glassmorphism form on the left, and a placeholder dashboard layout on the right. Use Tailwind CSS."
-
-**Phase 2 (Orchestration):** "Create an Antigravity server action that handles the form submission, calls the LLM API, enforces the specified JSON schema, and securely returns the parsed object to the frontend state."
-
-**Phase 3 (Polishing):** "Connect the returned JSON data directly to the dashboard cards, replacing the placeholder data, and add a smooth slide-in chat sidebar for the follow-up Co-Founder conversations."
-
----
-
-## 8. What to Study Once It Is Built
+## 6. What to Study Once It Is Built
 
 After your AI tools build this successfully and it is running live on Vercel, spend 1–2 hours studying these terms so you can talk about them confidently to recruiters:
 
